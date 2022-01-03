@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val startJob=findViewById<Button>(R.id.startJob)
         val endJob=findViewById<Button>(R.id.endJob)
-
+fddrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
         startJob.setOnClickListener {
             val componentName= ComponentName(this, ExampleJobService::class.java)
             val jobInfo=JobInfo.Builder(123, componentName).setRequiresCharging(true)
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 Log.i(TAG, "onCreate: Job failed")
             }
         }
-zczdczdcdzc
+
         endJob.setOnClickListener {
             val jobScheduler=getSystemService(JOB_SCHEDULER_SERVICE) as JobScheduler
             jobScheduler.cancel(123)
