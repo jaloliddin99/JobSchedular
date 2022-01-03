@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
 
         val endJobaw=findViewById<Button>(R.id.endJob)
 
-        awdadwadaw
-
         startJob.setOnClickListener {
             val componentName= ComponentName(this, ExampleJobService::class.java)
             val jobInfo=JobInfo.Builder(123, componentName).setRequiresCharging(true)
