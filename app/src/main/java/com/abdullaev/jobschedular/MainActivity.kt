@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-aczsczscszczs
+
         val startJob=findViewById<Button>(R.id.startJob)
         val endJob=findViewById<Button>(R.id.endJob)
-
+fddrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
         startJob.setOnClickListener {
             val componentName= ComponentName(this, ExampleJobService::class.java)
             val jobInfo=JobInfo.Builder(123, componentName).setRequiresCharging(true)
